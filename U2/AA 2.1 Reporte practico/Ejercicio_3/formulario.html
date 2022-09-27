@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="envio.html">
+        <h1>Primer formulario</h1>
+        <label for="name">Nombre:</label>
+        <input type="text" name="nombre" id="name" placeholder="Ingresar">
+        <Button type="submit">Enviar</Button>
+        <br>
+        <br>
+        <label for="LastName">Apellidos:</label>
+        <input type="text" name="LastName" id="LastName" placeholder="Ingresar">
+        <Button type="submit">Enviar</Button>
+        <br>
+        <br>
+    </form>  
+     
+    <hr>
+
+    <h1>Segundo formulario</h1>
+    <form action="" method="post">
+        <ul>
+            <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name">
+            </li>
+            <br>
+            <li>
+                <label for="mail">Correo electronico:</label>
+                <input type="email" id="mail" name="user_email">
+            </li>
+            <br>
+            <li>
+                <label for="msg">Mensaje:</label>
+                <textarea name="user_message" id="msg"></textarea>
+            </li>
+        </ul>
+        </ul>
+    </form>
+
+    <hr>
+
+    <h1>Tercer formulario</h1>
+    <form>
+        <fieldset>
+            <legend>Tamaño</legend>
+            <p>
+                <input type="radio" name="tamaño" id="tam_1" value="pequeño">
+                <label for="tam_1">Pequeño</label>
+            </p>
+
+            <p>
+                <input type="radio" name="tamaño" id="tam_2" value="mediano">
+                <label for="tam_2">Mediano</label>
+            </p>
+
+            <p>
+                <input type="radio" name="tamaño" id="tam_3" value="grande">
+                <label for="tam_3">Grande</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="sabor_cereza" id="sabor_1" value="cereza">
+                <label for="tam_3">Me gustan las cerezas</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="sabor_banana" id="sabor_2" value="banana">
+                <label for="tam_3">Me gustan las platanos</label>
+            </p>
+            
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <h1>Cuarto formulario</h1>
+    <form action="" method="post">
+        <ul>
+            <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name">
+            </li>
+            <br>
+            <li>
+                <label for="">Apellidos:</label>
+                <input type="text" id="surname" name="user_surname">
+            </li>
+            <br>
+            <li>
+                <label for="mail">Correo electronico:</label>
+                <input type="email" id="mail" name="user_email">
+            </li>
+            <br>
+            <li>
+                <input type="checkbox" name="terminos" id="terminos_1" value="aceptado">
+                <label for="terminos">Aceptar terminos y condiciones</label>
+            </li>
+            <br>
+            <li>
+                <Button type="submit">Enviar</Button>
+            </li>
+            
+        </ul>
+        </ul>
+    </form>
+
+</body>
+
+
+</html>
