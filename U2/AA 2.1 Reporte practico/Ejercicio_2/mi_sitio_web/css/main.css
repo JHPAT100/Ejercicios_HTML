@@ -13,7 +13,13 @@ body{
     background-color: blue;
     padding: 0px 15% 0px 15%;
 }
+header{
+    float: left;
+    margin: 0px 0px 30px 0px;
+    padding: 5px 0 0 0;
+    width: 100%;
 
+}
 #logo{
     text-align: center;
     margin: 0%;
@@ -76,6 +82,7 @@ footer{
     text-align: center;
     padding-top: 50px;
     color: #CCC;
+    clear: both;
 }
 
 img{
@@ -97,8 +104,33 @@ Galeria
 	float: left;
 	width: 45%;
 	margin: 2.5%;
-	background-color: #98A8F8;
-	color: #FFF;
+	background-color: #D61C4E;
+	color: #1CD6CE;
 }
 
+#galeria li a p{
+    margin: 0;
+    padding: 5%;
+    font-size: 0.9em;
+    color: #1CD6CE;
+}
 
+nav ul{
+    list-style: none;
+    margin: 0 10 0 10;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+nav{
+    width: 800;
+    padding: 15px 8px 15px 8px;
+}
+
+#icono-social{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 5px;
+}
