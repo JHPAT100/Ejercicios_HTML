@@ -1,0 +1,187 @@
+/*
+#D9D8D7
+#736055
+#A69185
+#262626
+#0D0D0D
+*/
+
+element {
+    --main-bg-color: brown;
+    --text-bg-color: #D9D8D7;
+    --text-bg-color: #736055;
+
+  }
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*Principal*/
+.principal{
+    background-color: white;
+    margin-top: -2.5em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+
+.title-principal{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Genericos*/
+.contenedor{
+    /*height: 80%;
+    width: 1258px;
+    Contrado izquierda derecha*/
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 0.3rem;
+    margin: 0 0.1em;
+    font-size: 1.2rem;
+}
+
+/* Tarjetas*/
+.card{
+    background-color: aqua;
+    overflow: hidden;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+.img-card{
+    width: 100%;
+}
+.body-card{
+    padding: 2em;
+}
+
+.body-card h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.body-card p{
+    font-weight: 200;
+}
+
+.btn-card{
+    background-color: rgba(141, 7, 178, 0.689);
+    color: aliceblue;
+}
+/*Contacto*/
+.contacto{
+display: flex;
+margin-bottom: 1em;
+background-color: #736055;
+flex-direction: column;
+text-align: center;
+
+}
+.img-col-contacto{
+
+    background:url(/assets/img/1080x1350.png);
+    height: 21.80em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    order: 2;
+}
+.txt-col-contacto{
+    order: 1;
+}
+.body-contacto{
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+.body-contacto h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.body-contacto p{
+    font-weight: 200;
+}
+.body-contacto p a{
+    font-weight: 500;
+}
+/*Pie de pagina*/
+.bg-footer{
+    background-color: #736055;
+    color: white;
+}
+.bg-footer p{
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/*Clases*/
+.bg-img-fondo{
+    background:url(/assets/img/fondo_header.jpg);
+    height: 18.75rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-transp{
+    background-color: #73605566;
+    padding: 1.5em 0;
+}
+
+.nav-logo-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-logo a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1em;
+
+}
+
+.nav-logo img{
+    width: 2em;
+}
+
+.nav-menu{
+    background-color: #736055;
+    padding: 1rem;
+    border-radius: 0.3em;
+}
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    padding: 0.3em;
+}
+
+.nav-link:hover{
+    background-color: #FFF;
+    color: #000;
+    border-radius: 0.3em;
+}
