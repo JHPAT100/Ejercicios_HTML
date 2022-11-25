@@ -1,0 +1,77 @@
+/*
+colorP #311b92
+colorP oscuro #000063
+colorS #ff9100
+colorS oscuro #c56200
+*/
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; 
+}
+
+.header{
+    display: block;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 1em;
+    border-radius: 0.3rem;
+    margin: 0 0.5em 0 0;
+    font-size: 1.2rem;
+}
+.btn2{
+    background-color: blueviolet;
+    color: white;
+}
+.btn3{
+    background-color:brown;
+    color: white;
+}
+.card{
+    width: 300px;
+    background-color: aqua;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.img-card{
+    width: 100%;
+}
+.body-card{
+    padding: 2em;
+}
+
+.body-card h3{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.body-card p{
+    font-weight: 300;
+}
+
+.btn4{
+    background-color: rgba(141, 7, 178, 0.689);
+    color: aliceblue;
+}
