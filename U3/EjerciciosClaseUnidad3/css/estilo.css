@@ -6,10 +6,16 @@
 #0D0D0D
 */
 
-element {
-    --main-bg-color: brown;
+:root {
+    /*Colores*/
+    --main-color: brown;
     --text-bg-color: #D9D8D7;
-    --text-bg-color: #736055;
+    --bg-color:#1e1c2a;
+    
+    /*Tamanos fuente*/
+    --big-font:5rem;
+    --h2-font:2.25rem;
+    --p-font:0.9rem;
 
   }
 
